@@ -1,6 +1,7 @@
-import { ClientCertificate } from '../../models/client-certificate';
-import { RequestBodyParameter, RequestHeader } from '../../models/request';
-import { Settings } from '../../models/settings';
+import { ClientCertificate } from 'insomnia/src/models/client-certificate';
+import { RequestBodyParameter, RequestHeader } from 'insomnia/src/models/request';
+import { Settings } from 'insomnia/src/models/settings';
+
 import { toPreRequestAuth } from './auth';
 import { Environment, Variables } from './environments';
 import { RequestContext } from './interfaces';
